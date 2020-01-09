@@ -3,9 +3,9 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
-  color: #444;
+  color: rgb(0, 0, 0);
   text-align: center;
   line-height: 1.5;
 }
@@ -13,7 +13,8 @@ body {
 nav,
 footer {
   padding: 1% 0;
-  background-color: #aaa;
+  /*background-color: ;*/
+  text-align: right;
 }
 
 nav {
@@ -25,15 +26,30 @@ nav {
 }
 
 header {
+  /*this needs to be sized
+  background-image: url(/images/zhang-kenny-E163LGOdZnw-unsplash.jpg);
+*/
   padding: 12% 0;
 }
 
 section {
   min-height: 200px;
   padding: 6% 0;
-  background-color: #bbb;
+  background-color: rgb(184, 173, 173);
 }
 
-section:nth-child(even) {
-  background-color: #ddd;
+main {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 5%;
+  border: 10px;
+}
+
+span {
+  margin: 30px;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 15px;
 }
