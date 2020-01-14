@@ -4,7 +4,7 @@
 
 body {
   margin: auto;
-  background-color: rgba(228, 217, 214, 0.979);
+  background-color: whitesmoke;
 
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -12,27 +12,6 @@ body {
   text-align: center;
   line-height: 1.5;
   line-height: 20px;
-}
-
-nav {
-  padding: 3% 0;
-  padding-right: 5%;
-  text-align: right;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline;
-  padding: 0 20px 0 20px;
 }
 
 .main-page-header {
@@ -49,23 +28,32 @@ nav li {
   padding-top: 5%;
   border: 10px;
 }
-
-main {
-  margin: 0px;
-  padding: 0px;
+nav {
+  font-size: 20px;
+  padding: 3% 0;
+  padding-right: 5%;
+  text-align: right;
 }
 
-/*main a {
+nav a {
   text-decoration: none;
-  color: rgb(4, 4, 95);
-  padding: 10px;
-}*/
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
 
 .about-page-header {
   height: 60px;
   padding-left: 3%;
   padding-right: 3%;
-
   text-align: left;
 }
 
@@ -96,11 +84,6 @@ main {
   padding-right: 3%;
   padding-top: 5%;
   border: 10px;
-}
-
-span {
-  margin: 30px;
-  font-size: 16px;
 }
 
 footer {
