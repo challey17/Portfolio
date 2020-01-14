@@ -19,15 +19,17 @@ body {
 
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 50vh;
+  min-height: 40vh;
   text-align: start;
   font-size: 40px;
   color: aliceblue;
   padding-left: 3%;
   padding-right: 3%;
   padding-top: 5%;
-  border: 10px;
+  padding-bottom: 10%;
+  margin-bottom: 20%;
 }
+
 nav {
   font-size: 20px;
   padding: 3% 0;
@@ -54,24 +56,43 @@ li {
   height: 60px;
   padding-left: 3%;
   padding-right: 3%;
-  text-align: left;
+
+  min-height: 30vh;
+
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 5%;
+  border: 10px;
+}
+.about-page-header a {
+  color: black;
 }
 
 .about-main {
   padding-left: 10%;
+
   text-align: left;
   line-height: 2;
   max-width: 85%;
 }
 
 .about-main p {
-  padding-top: 30px;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
   text-align: center;
+  /*line-height: 2;*/
 }
 
 .project-container {
   height: 35%;
   padding: 0% 0;
+  line-height: 2;
+}
+
+main a {
+  color: #c75f44;
+  text-decoration: none;
+  padding-right: 10px;
 }
 
 img {
@@ -88,9 +109,13 @@ main {
 
 footer {
   text-align: center;
-  padding-top: 45px;
+  padding-top: 20vh;
+  color: #c75f44;
 }
-
+hr {
+  border: 1px solid;
+  color: #c75f44;
+}
 h1 {
   margin-bottom: 20px;
   font-size: 30px;
