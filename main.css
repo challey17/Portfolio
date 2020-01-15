@@ -15,7 +15,7 @@ body {
 }
 
 .main-page-header {
-  background-image: url(/images/zhang-kenny-E163LGOdZnw-unsplash.jpg);
+  background-image: url(images/zhang-kenny-E163LGOdZnw-unsplash.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -70,39 +70,25 @@ div {
 }
 
 .html {
-  background-image: url(/images/iconfinder_HTML_Color_Black_65697.png);
+  background-image: url(images/iconfinder_HTML_Color_Black_65697.png);
 
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .css {
-  background-image: url(/images/iconfinder_css3_icon_291788.svg);
+  background-image: url(images/iconfinder_css3_icon_291788.svg);
 
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .js {
-  background-image: url(/images/720px-JavaScript-logo.png);
+  background-image: url(images/720px-JavaScript-logo.png);
 
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/*.react {
-  background-image: url(/images/kisspng-react-javascript-responsive-web-design-github-angu-github-5accac250cda95.4452823815233628530527.png);
-
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.nodejs {
-  background-image: url(/images/Node.js_logo.svg);
-
-  background-size: contain;
-  background-repeat: no-repeat;
-}*/
 
 .about-page-header {
   height: 60px;
