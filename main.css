@@ -56,14 +56,13 @@ li {
   margin: auto;
   width: 80%;
   height: 20vh;
-
-  /*display: inline-block;*/
 }
 div {
   display: inline-flex;
   align-content: space-evenly;
 
-  margin-right: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
   margin-bottom: 5%;
   width: 45px;
   height: 45px;
@@ -161,4 +160,43 @@ h1 {
 }
 h2 {
   font-size: 20px;
+}
+
+@media screen and (min-width: 400px) {
+  div {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  p {
+    font-size: 20px;
+  }
+  main a {
+    font-size: 20px;
+  }
+  div {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  nav a {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  main p {
+    font-size: 24px;
+  }
+  .about-main p {
+    font-size: 24px;
+  }
 }
