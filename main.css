@@ -127,7 +127,7 @@ div {
 }
 
 main a {
-  color: #c75f44;
+  color: #02083f;
   text-decoration: none;
   padding-right: 10px;
 }
@@ -147,11 +147,11 @@ main {
 footer {
   text-align: center;
   padding-top: 20vh;
-  color: #c75f44;
+  color: #02083f;
 }
 hr {
   border: 1px solid;
-  color: #c75f44;
+  color: #02083f;
 }
 h1 {
   margin-bottom: 20px;
