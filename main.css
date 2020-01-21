@@ -115,9 +115,8 @@ div {
 
 .about-main p {
   padding-top: 20vh;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
   text-align: center;
-  /*line-height: 2;*/
 }
 
 .project-container {
