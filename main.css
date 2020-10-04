@@ -88,7 +88,19 @@ div {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.react {
+  background-image: url(images/Reactlogo.png);
 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.node {
+  background-image: url(images/nodejs.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .about-page-header {
   height: 60px;
   padding-left: 3%;
@@ -123,6 +135,10 @@ div {
   height: 35%;
   padding: 12% 0;
   line-height: 2;
+}
+
+.project {
+  padding-top: 16px;
 }
 
 main a {
